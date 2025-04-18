@@ -4,4 +4,4 @@
 !*.h
 !README.md
 !LICENSE
-!.gitignore
+.gitignore
