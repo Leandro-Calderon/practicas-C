@@ -1,14 +1,23 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
+    int cantidad_alumnos;
 
-  int alumnos = 0;
+    // Solicitar la cantidad de alumnos
+    printf("¿Cuántos alumnos hay? ");
+    if (scanf("%d", &cantidad_alumnos) != 1) {
+        fprintf(stderr, "Error al leer la cantidad de alumnos.\n");
+        return 1; // Indicar error
+    }
 
-  printf("Cuantos alumnos hay?");
-  scanf("%d", &alumnos);
+    // Validar que la cantidad de alumnos sea no negativa
+    if (cantidad_alumnos < 0) {
+        fprintf(stderr, "La cantidad de alumnos no puede ser negativa.\n");
+        return 1; // Indicar error
+    }
 
-  printf("ok hay %d alumnos\n", alumnos);
+    // Mostrar el resultado
+    printf("Ok, hay %d alumnos.\n", cantidad_alumnos);
 
-  return 0;
+    return 0; // Éxito
 }
