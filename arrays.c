@@ -5,15 +5,16 @@
 int main()
 
 {
-    int notas[N];
-    int i;
+  int notas[N];
+  int i;
 
-    for (i = 0; i < N; i++) {
-        notas[i] + i + 1;
-    }
+  for (i = 0; i < N; i++) {
+    notas[i] = i + 1;
+  }
 
-    for (int i = 0; i < N; i++) {
-        printf("%d ", notas[i]);
-    }
-    return 0;
+  for (int i = 0; i < N; i++) {
+    printf("%d ", notas[i]);
+  }
+  printf("\n");
+  return 0;
 }
