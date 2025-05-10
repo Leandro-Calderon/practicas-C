@@ -2,9 +2,7 @@
 #include <stdio.h>
 #define N 100
 
-int main()
-
-{
+int main() {
   int notas[N];
   int i;
 

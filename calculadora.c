@@ -4,9 +4,7 @@
 // operador ( + - / * %).
 // Ej: 7*11.
 
-
 #include <stdio.h>
-
 
 int main() {
   float primer_numero;
