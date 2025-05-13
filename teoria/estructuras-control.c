@@ -1739,5 +1739,3 @@ int main() {
 
   return 0;  // Indica terminación exitosa del programa
 }
-
-/*
