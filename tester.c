@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	printf("fsggtrrrrrrrrrrrrfd");
-	return 0;
+  printf("fsdfsdf\n");
+  printf("\n");
+  return 0;
 }
